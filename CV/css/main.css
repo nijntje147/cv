@@ -1,0 +1,75 @@
+
+#nul{
+    padding: 10px;
+    margin-bottom: 25px;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+}
+
+#een{
+    display: inline-block;
+    height: 22px;
+    width: 100px;
+    padding: 12px;
+    color: white;
+    border-left: 2px solid seashell;
+    border-right: 1px solid seashell;
+    background-color: plum;
+}
+#een:hover{
+    background-color: pink;
+    border-style: none;
+}
+
+body {
+    font-family: Verdana, sans-serif; font-size: 18px;
+    background-color: peachpuff;
+    padding:  5px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.p1{
+background-color: aliceblue;
+padding: 10px;
+}
+
+#twee{
+   padding: 20px;
+}
+
+table{
+    border-collapse: collapse;
+    width: 800px;
+}
+td, th{
+    padding: 10px 5px;
+    background-color: aliceblue;
+}
+
+input[type="text"], input[type="email"], textarea, select, button {
+    display: block;
+    margin: 15px 0px;
+    width: 400px;
+    box-sizing: border-box;
+    border-radius: 4px; box-shadow: inset 2px 2px 5px palevioletred;
+}
+
+textarea{
+    height: 100px;
+    padding: 5px 4px;
+}
+
+button:active{
+    background-color: plum;
+    color: white;
+    border-radius: 4px; box-shadow: inset 2px 2px 5px palevioletred;
+}
+
+#form{
+    margin-left: 25%;
+    margin-right: 25%;
+}
